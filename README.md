@@ -43,8 +43,8 @@ pod 'Lupi'
 
 ## Author
 
-weitieda, hi@tiedawei.com
+[Tieda Wei](https://tiedawei.com)
 
 ## License
 
-Lupi is available under the MIT license. See the LICENSE file for more info.
+`Lupi` is released under an [MIT License](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE) for details.
