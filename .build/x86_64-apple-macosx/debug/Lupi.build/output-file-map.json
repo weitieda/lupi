@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/master.swiftdeps"
+  },
+  "/Users/Tieda/Dev/iOS/Production Project/Lupi/Sources/Lupi/FileType.swift": {
+    "dependencies": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/FileType.d",
+    "object": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/FileType.swift.o",
+    "swiftmodule": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/FileType~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/FileType.swiftdeps"
+  },
+  "/Users/Tieda/Dev/iOS/Production Project/Lupi/Sources/Lupi/LupiError.swift": {
+    "dependencies": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/LupiError.d",
+    "object": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/LupiError.swift.o",
+    "swiftmodule": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/LupiError~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/LupiError.swiftdeps"
+  },
+  "/Users/Tieda/Dev/iOS/Production Project/Lupi/Sources/Lupi/LupiVideoBackgroundView.swift": {
+    "dependencies": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/LupiVideoBackgroundView.d",
+    "object": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/LupiVideoBackgroundView.swift.o",
+    "swiftmodule": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/LupiVideoBackgroundView~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tieda/Dev/iOS/Production Project/Lupi/.build/x86_64-apple-macosx/debug/Lupi.build/LupiVideoBackgroundView.swiftdeps"
+  }
+}

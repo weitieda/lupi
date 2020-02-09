@@ -1,0 +1,257 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LupiVideoBackgroundView"
+provides-nominal:
+- "4Lupi0A19VideoBackgroundViewC"
+provides-member:
+- ["4Lupi0A19VideoBackgroundViewC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AVPlayerItem"
+- "AVPlayerLayer"
+- "AVPlayerLooper"
+- "AVQueuePlayer"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Bundle"
+- "FileType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "LupiError"
+- "LupiVideoBackgroundView"
+- "NSCoder"
+- !private "NSLayoutConstraint"
+- "String"
+- !private "StringLiteralType"
+- "UIView"
+- !private "URL"
+- !private "bottomAnchor"
+- !private "fatalError"
+- !private "frame"
+- !private "leadingAnchor"
+- !private "topAnchor"
+- !private "trailingAnchor"
+- !private "translatesAutoresizingMaskIntoConstraints"
+depends-member:
+- !private ["So19AVLayerVideoGravitya", "resizeAspectFill"]
+- !private ["So8AVPlayerC", "init"]
+- !private ["So8AVPlayerC", "isMuted"]
+- !private ["So8AVPlayerC", "play"]
+- !private ["So12AVPlayerItemC", "init"]
+- !private ["So13AVPlayerLayerC", "frame"]
+- !private ["So13AVPlayerLayerC", "init"]
+- !private ["So13AVPlayerLayerC", "videoGravity"]
+- !private ["So14AVPlayerLooperC", "init"]
+- !private ["So13AVQueuePlayerC", "init"]
+- !private ["So13AVQueuePlayerC", "isMuted"]
+- !private ["So13AVQueuePlayerC", "play"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "path"]
+- !private ["So7CALayerC", "frame"]
+- !private ["So7CALayerC", "init"]
+- !private ["So7CALayerC", "videoGravity"]
+- !private ["So13CAMediaTimingP", "frame"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["So13CAMediaTimingP", "videoGravity"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isMuted"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "play"]
+- !private ["s7CVarArgP", "videoGravity"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isMuted"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "play"]
+- !private ["s28CustomDebugStringConvertibleP", "videoGravity"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isMuted"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "play"]
+- !private ["s23CustomStringConvertibleP", "videoGravity"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isMuted"]
+- !private ["SQ", "main"]
+- !private ["SQ", "mp4"]
+- !private ["SQ", "path"]
+- !private ["SQ", "play"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "resizeAspectFill"]
+- !private ["SQ", "videoGravity"]
+- !private ["s5ErrorP", "videoNotFound"]
+- !private ["4Lupi8FileTypeO", "deinit"]
+- !private ["4Lupi8FileTypeO", "mp4"]
+- !private ["4Lupi8FileTypeO", "rawValue"]
+- !private ["SH", "frame"]
+- !private ["SH", "init"]
+- !private ["SH", "isMuted"]
+- !private ["SH", "main"]
+- !private ["SH", "mp4"]
+- !private ["SH", "path"]
+- !private ["SH", "play"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "resizeAspectFill"]
+- !private ["SH", "videoGravity"]
+- !private ["10Foundation14LocalizedErrorP", "videoNotFound"]
+- !private ["4Lupi0A5ErrorO", "deinit"]
+- !private ["4Lupi0A5ErrorO", "videoNotFound"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "AVPlayerItem"]
+- ["4Lupi0A19VideoBackgroundViewC", "AVPlayerLayer"]
+- ["4Lupi0A19VideoBackgroundViewC", "AVPlayerLooper"]
+- ["4Lupi0A19VideoBackgroundViewC", "AVQueuePlayer"]
+- ["4Lupi0A19VideoBackgroundViewC", "Bool"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "Bundle"]
+- ["4Lupi0A19VideoBackgroundViewC", "FileType"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "LupiError"]
+- ["4Lupi0A19VideoBackgroundViewC", "NSCoder"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "NSLayoutConstraint"]
+- ["4Lupi0A19VideoBackgroundViewC", "String"]
+- ["4Lupi0A19VideoBackgroundViewC", "UIView"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "URL"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "bottomAnchor"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "fatalError"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "frame"]
+- ["4Lupi0A19VideoBackgroundViewC", "init"]
+- ["4Lupi0A19VideoBackgroundViewC", "layoutSubviews"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "leadingAnchor"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "parentView"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "playerLooper"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "setupPlayer"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "setupUI"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "topAnchor"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "trailingAnchor"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "videoPlayer"]
+- !private ["4Lupi0A19VideoBackgroundViewC", "videoPlayerLayer"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "videoGravity"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isMuted"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "play"]
+- !private ["So8NSObjectC", "videoGravity"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isMuted"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "play"]
+- !private ["So8NSObjectP", "videoGravity"]
+- !private ["So14NSSecureCodingP", "frame"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "videoGravity"]
+- !private ["SY", "mp4"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "resizeAspectFill"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "resizeAspectFill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMuted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "videoGravity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isMuted"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "path"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "play"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "videoGravity"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "resizeAspectFill"]
+- !private ["s20_SwiftNewtypeWrapperP", "resizeAspectFill"]
+depends-nominal:
+- !private "So19AVLayerVideoGravitya"
+- !private "So8AVPlayerC"
+- !private "So12AVPlayerItemC"
+- !private "So13AVPlayerLayerC"
+- !private "So14AVPlayerLooperC"
+- !private "So13AVQueuePlayerC"
+- !private "So8NSBundleC"
+- !private "So7CALayerC"
+- !private "So13CAMediaTimingP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "4Lupi8FileTypeO"
+- !private "SH"
+- !private "10Foundation14LocalizedErrorP"
+- !private "4Lupi0A5ErrorO"
+- "4Lupi0A19VideoBackgroundViewC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Foundation3URLV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/XPC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/IOKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-macos.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "da7c8a59aef075fb34b1631b865803c2"

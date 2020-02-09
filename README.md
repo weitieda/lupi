@@ -42,7 +42,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'Lupi', :git => 'https://github.com/weitieda/Lupi.git'
 ```
+### Swift Package Manager (Xcode 11+)
 
+In `Xcode`, `File` -> `Swift Packages` -> `Add Package Dependency`, enter Lupi's repo URL `https://github.com/weitieda/Lupi`. Or you can login Xcode with your GitHub account and just type `Lupi` to search.
+ 
 ## Author
 
 [Tieda Wei](https://tiedawei.com)

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "7df26a51099590f3fd434120aded257d"
+build_time: [1581262351, 299991000]
+inputs:
+  "/Users/Tieda/Dev/iOS/Production Project/Lupi/Sources/Lupi/FileType.swift": !dirty [1581227656, 394159419]
+  "/Users/Tieda/Dev/iOS/Production Project/Lupi/Sources/Lupi/LupiError.swift": !dirty [1581227672, 879557842]
+  "/Users/Tieda/Dev/iOS/Production Project/Lupi/Sources/Lupi/LupiVideoBackgroundView.swift": !dirty [1581228552, 350795050]

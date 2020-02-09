@@ -1,0 +1,11 @@
+---
+path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/simd.swiftmodule/x86_64-apple-macos.swiftmodule'
+dependencies:    
+  - mtime:           1576464960000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/simd.swiftmodule/x86_64-apple-macos.swiftmodule'
+    size:            508416
+  - mtime:           1571354567000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface'
+    size:            126486
+version:         1
+...
