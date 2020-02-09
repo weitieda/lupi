@@ -10,8 +10,6 @@ One-line configuration video background for iOS project, written in Swift.
 
 ## Usage
 
-### CocoaPods
-
 ```swift
 
 import Lupi
@@ -36,7 +34,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-Lupi is available through [CocoaPods](https://cocoapods.org). To install
+### CocoaPods
+
+`Lupi` is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
