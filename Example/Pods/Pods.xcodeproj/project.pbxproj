@@ -11,9 +11,9 @@
 		4046D1DFBD38B27D3A17B6682DE9E553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		42E5BF6AB7C3A88CBDA41C46EA5327AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6613B4C6963359AD0057C9542A20CD69 /* Lupi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC85704051CD4BD53E44485A1767852 /* Lupi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		830EBD7023EFD22C0045FBF9 /* LupiVideoBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EBD6F23EFD22C0045FBF9 /* LupiVideoBackgroundView.swift */; };
-		830EBD7223EFD2400045FBF9 /* LupiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EBD7123EFD2400045FBF9 /* LupiError.swift */; };
-		830EBD7423EFD2500045FBF9 /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EBD7323EFD2500045FBF9 /* FileType.swift */; };
+		830EBD7A23EFD5F50045FBF9 /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EBD7923EFD5F50045FBF9 /* FileType.swift */; };
+		830EBD7C23EFD6140045FBF9 /* LupiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EBD7B23EFD6140045FBF9 /* LupiError.swift */; };
+		830EBD7E23EFD6260045FBF9 /* LupiVideoBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EBD7D23EFD6260045FBF9 /* LupiVideoBackgroundView.swift */; };
 		8806D57C7E13563F4AD063BEE61003DB /* Pods-Lupi_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B76FF0E6FE8E7CD7EFC9F6BF4120A98 /* Pods-Lupi_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A358646A3B56AE9F320526D2A3AC7E85 /* Pods-Lupi_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B7972611944AAAEC75C62883FFA40E /* Pods-Lupi_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D10221D374B8BAAA485051DA04775618 /* Pods-Lupi_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E60E98C105DD8B7909A244D45A331D0E /* Pods-Lupi_Example-dummy.m */; };
@@ -52,9 +52,9 @@
 		7E7E5B7B1377CA63913467030DBF3493 /* Lupi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Lupi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8116D5C4AD45E1BFCE55720814231A69 /* Pods_Lupi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lupi_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		830E311FD7BB6F239950094CED34E8C2 /* Pods-Lupi_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lupi_Tests-dummy.m"; sourceTree = "<group>"; };
-		830EBD6F23EFD22C0045FBF9 /* LupiVideoBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LupiVideoBackgroundView.swift; sourceTree = "<group>"; };
-		830EBD7123EFD2400045FBF9 /* LupiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LupiError.swift; sourceTree = "<group>"; };
-		830EBD7323EFD2500045FBF9 /* FileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileType.swift; sourceTree = "<group>"; };
+		830EBD7923EFD5F50045FBF9 /* FileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FileType.swift; path = Lupi/Classes/FileType.swift; sourceTree = "<group>"; };
+		830EBD7B23EFD6140045FBF9 /* LupiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LupiError.swift; path = Lupi/Classes/LupiError.swift; sourceTree = "<group>"; };
+		830EBD7D23EFD6260045FBF9 /* LupiVideoBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LupiVideoBackgroundView.swift; path = Lupi/Classes/LupiVideoBackgroundView.swift; sourceTree = "<group>"; };
 		8531EDB1177120419A97C668CA3902A5 /* Pods-Lupi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lupi_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B5C29AB08F770BF14254B5C3D2C76E9 /* Pods-Lupi_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lupi_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -127,9 +127,9 @@
 			children = (
 				93AB95BAFE3C81B39AFB41FC035455A9 /* Pod */,
 				FED5101159BAAC6F0B2D8FE059DA17F0 /* Support Files */,
-				830EBD6F23EFD22C0045FBF9 /* LupiVideoBackgroundView.swift */,
-				830EBD7123EFD2400045FBF9 /* LupiError.swift */,
-				830EBD7323EFD2500045FBF9 /* FileType.swift */,
+				830EBD7923EFD5F50045FBF9 /* FileType.swift */,
+				830EBD7B23EFD6140045FBF9 /* LupiError.swift */,
+				830EBD7D23EFD6260045FBF9 /* LupiVideoBackgroundView.swift */,
 			);
 			name = Lupi;
 			path = ../..;
@@ -384,10 +384,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830EBD7223EFD2400045FBF9 /* LupiError.swift in Sources */,
-				830EBD7023EFD22C0045FBF9 /* LupiVideoBackgroundView.swift in Sources */,
+				830EBD7E23EFD6260045FBF9 /* LupiVideoBackgroundView.swift in Sources */,
+				830EBD7C23EFD6140045FBF9 /* LupiError.swift in Sources */,
 				D3CB85A0AC7DE816AA213D06A6A3DFAF /* Lupi-dummy.m in Sources */,
-				830EBD7423EFD2500045FBF9 /* FileType.swift in Sources */,
+				830EBD7A23EFD5F50045FBF9 /* FileType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

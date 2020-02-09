@@ -67,3 +67,4 @@ public class LupiVideoBackgroundView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
