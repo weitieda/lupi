@@ -1,0 +1,6 @@
+framework module Lupi {
+  umbrella header "Lupi-umbrella.h"
+
+  export *
+  module * { export * }
+}

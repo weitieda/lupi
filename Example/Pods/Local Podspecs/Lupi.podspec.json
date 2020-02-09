@@ -1,0 +1,22 @@
+{
+  "name": "Lupi",
+  "version": "0.1.0",
+  "summary": "A short description of Lupi.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/weitieda/Lupi",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "weitieda": "hi@tiedawei.com"
+  },
+  "source": {
+    "git": "https://github.com/weitieda/Lupi.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Lupi/Classes/**/*"
+}

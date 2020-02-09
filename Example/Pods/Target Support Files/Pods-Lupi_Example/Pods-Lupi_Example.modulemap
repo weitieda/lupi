@@ -1,0 +1,6 @@
+framework module Pods_Lupi_Example {
+  umbrella header "Pods-Lupi_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
