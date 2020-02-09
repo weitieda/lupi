@@ -1,9 +1,8 @@
 # Lupi
 
-[![CI Status](https://img.shields.io/travis/weitieda/Lupi.svg?style=flat)](https://travis-ci.org/weitieda/Lupi)
-[![Version](https://img.shields.io/cocoapods/v/Lupi.svg?style=flat)](https://cocoapods.org/pods/Lupi)
-[![License](https://img.shields.io/cocoapods/l/Lupi.svg?style=flat)](https://cocoapods.org/pods/Lupi)
-[![Platform](https://img.shields.io/cocoapods/p/Lupi.svg?style=flat)](https://cocoapods.org/pods/Lupi)
+![Platform](https://img.shields.io/badge/platforms-iOS-333333.svg)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)][mitLink]
 
 One-line configuration video background for iOS project, written in Swift.
 
