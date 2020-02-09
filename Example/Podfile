@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Lupi_Example' do
+  pod 'Lupi', :path => '../'
+
+  target 'Lupi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
