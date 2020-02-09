@@ -9,6 +9,9 @@ One-line configuration video background for iOS project, written in Swift.
 ![preview](demo.gif)
 
 ## Usage
+
+### CocoaPods
+
 ```swift
 
 import Lupi
