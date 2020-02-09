@@ -11,6 +11,9 @@ One-line configuration video background for iOS project, written in Swift.
 
 ## Usage
 ```swift
+
+import Lupi
+
 class ViewController: UIViewController {
     
     var videoBackgrounView: LupiVideoBackgroundView?
