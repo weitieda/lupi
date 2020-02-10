@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		246A0AA5B5B0F0C19841C4D092D79D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4046D1DFBD38B27D3A17B6682DE9E553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		42E5BF6AB7C3A88CBDA41C46EA5327AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6613B4C6963359AD0057C9542A20CD69 /* Lupi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC85704051CD4BD53E44485A1767852 /* Lupi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		830EBD7A23EFD5F50045FBF9 /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EBD7923EFD5F50045FBF9 /* FileType.swift */; };
-		830EBD7C23EFD6140045FBF9 /* LupiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EBD7B23EFD6140045FBF9 /* LupiError.swift */; };
-		830EBD7E23EFD6260045FBF9 /* LupiVideoBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EBD7D23EFD6260045FBF9 /* LupiVideoBackgroundView.swift */; };
+		246A0AA5B5B0F0C19841C4D092D79D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		4046D1DFBD38B27D3A17B6682DE9E553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		471AE56328A58DA8C3336549E207C79D /* LupiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0E674D4EA9931D36E20DC57BB0FB5A /* LupiError.swift */; };
+		4F73A7F8B30FC73537A5D3A6FDD0B645 /* Lupi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E565CD96C98075ACBBACE7BBC0D0DC84 /* Lupi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8806D57C7E13563F4AD063BEE61003DB /* Pods-Lupi_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B76FF0E6FE8E7CD7EFC9F6BF4120A98 /* Pods-Lupi_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9712215410223759E433DD7361CEF9A9 /* LupiVideoBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B63FBDBAB024DA93806004893C389A /* LupiVideoBackgroundView.swift */; };
+		97470592C114F8FC750328A3EA57B13E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
 		A358646A3B56AE9F320526D2A3AC7E85 /* Pods-Lupi_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B7972611944AAAEC75C62883FFA40E /* Pods-Lupi_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA1A640B1A67C494705393A69075872 /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA5BB3FAEFFFEA637D5D0154A2DB97 /* FileType.swift */; };
+		C903C8F93E60EF1068257CA0AC3B617F /* Lupi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC64595422E376DD9319D2D9BCB1F30 /* Lupi-dummy.m */; };
+		CCA5581C02E5C085B68970D77C59A48D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */; };
 		D10221D374B8BAAA485051DA04775618 /* Pods-Lupi_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E60E98C105DD8B7909A244D45A331D0E /* Pods-Lupi_Example-dummy.m */; };
-		D3CB85A0AC7DE816AA213D06A6A3DFAF /* Lupi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ACF62B270ED97076C2D78E8A9096D /* Lupi-dummy.m */; };
+		DC57FF7F3F9F31B95168D4D638DCB9FA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */; };
 		F4E4721A12400E2AC4CDA62F33A9B40D /* Pods-Lupi_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 830E311FD7BB6F239950094CED34E8C2 /* Pods-Lupi_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -40,38 +42,40 @@
 
 /* Begin PBXFileReference section */
 		038F7A88E2D1843C65D0C98B33FD1593 /* Pods-Lupi_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lupi_Example.modulemap"; sourceTree = "<group>"; };
+		04D906BB4004D23EFDE701CA2935569C /* Lupi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lupi-prefix.pch"; sourceTree = "<group>"; };
 		06B7972611944AAAEC75C62883FFA40E /* Pods-Lupi_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lupi_Example-umbrella.h"; sourceTree = "<group>"; };
 		0757F7D99DA4FF10B6072DD5CF0D7F2E /* Pods-Lupi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lupi_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		152C37BFBB00CF6913FAEC39DB21F37D /* Pods_Lupi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lupi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3BC85704051CD4BD53E44485A1767852 /* Lupi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lupi-umbrella.h"; sourceTree = "<group>"; };
+		152C37BFBB00CF6913FAEC39DB21F37D /* Pods_Lupi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lupi_Tests.framework; path = "Pods-Lupi_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8AEE5ACB7C52C1C01E76EBC4010D65 /* Lupi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Lupi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		23F4B5AD1F10740383BD3B15F48D0901 /* Lupi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Lupi-Info.plist"; sourceTree = "<group>"; };
+		2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2C45F3D1675BB99FED2CAC64893AF74E /* Lupi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lupi.xcconfig; sourceTree = "<group>"; };
+		39B63FBDBAB024DA93806004893C389A /* LupiVideoBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LupiVideoBackgroundView.swift; path = Sources/Lupi/LupiVideoBackgroundView.swift; sourceTree = "<group>"; };
 		3FB273CCFA7E43490F080D36161BFDFE /* Pods-Lupi_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lupi_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		535816E6B9E037A54C1FDD563927BEE0 /* Pods-Lupi_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lupi_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B76FF0E6FE8E7CD7EFC9F6BF4120A98 /* Pods-Lupi_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lupi_Tests-umbrella.h"; sourceTree = "<group>"; };
+		66FAA57FD136E762F91BA9DB6C7A2B18 /* Lupi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Lupi.modulemap; sourceTree = "<group>"; };
 		6A4896C0DF44A753DE4BCAD79B47732A /* Pods-Lupi_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lupi_Tests.modulemap"; sourceTree = "<group>"; };
-		7E7E5B7B1377CA63913467030DBF3493 /* Lupi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Lupi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8116D5C4AD45E1BFCE55720814231A69 /* Pods_Lupi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lupi_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFA5BB3FAEFFFEA637D5D0154A2DB97 /* FileType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileType.swift; path = Sources/Lupi/FileType.swift; sourceTree = "<group>"; };
+		80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8116D5C4AD45E1BFCE55720814231A69 /* Pods_Lupi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lupi_Example.framework; path = "Pods-Lupi_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		830E311FD7BB6F239950094CED34E8C2 /* Pods-Lupi_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lupi_Tests-dummy.m"; sourceTree = "<group>"; };
-		830EBD7923EFD5F50045FBF9 /* FileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FileType.swift; path = Lupi/Classes/FileType.swift; sourceTree = "<group>"; };
-		830EBD7B23EFD6140045FBF9 /* LupiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LupiError.swift; path = Lupi/Classes/LupiError.swift; sourceTree = "<group>"; };
-		830EBD7D23EFD6260045FBF9 /* LupiVideoBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LupiVideoBackgroundView.swift; path = Lupi/Classes/LupiVideoBackgroundView.swift; sourceTree = "<group>"; };
 		8531EDB1177120419A97C668CA3902A5 /* Pods-Lupi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lupi_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B5C29AB08F770BF14254B5C3D2C76E9 /* Pods-Lupi_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lupi_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B612A83429FF462F4AD77D10170800AF /* Lupi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lupi-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B650F02DE1AD0AEE7F07140519D9C16B /* Pods-Lupi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lupi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C002DB9E417710E3D54080CCD3398421 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C5388C3B24AD03A25CD211FD2E65ADC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C8AF3D9E584A33640804CDD3660C2EF9 /* Pods-Lupi_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lupi_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBED98C9BC2E0EA7AD551A60446133BB /* Pods-Lupi_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lupi_Tests-Info.plist"; sourceTree = "<group>"; };
-		D068AC1414F7CD0D15FDB3264423B046 /* Lupi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lupi.xcconfig; sourceTree = "<group>"; };
-		D5F2589E1488FCD66B0C83693B4F4E9B /* Lupi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lupi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D87ACF62B270ED97076C2D78E8A9096D /* Lupi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Lupi-dummy.m"; sourceTree = "<group>"; };
-		D923E74B3F00B2A4A5276349D8ED694E /* Lupi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Lupi.modulemap; sourceTree = "<group>"; };
+		CCC64595422E376DD9319D2D9BCB1F30 /* Lupi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Lupi-dummy.m"; sourceTree = "<group>"; };
+		CF0E674D4EA9931D36E20DC57BB0FB5A /* LupiError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LupiError.swift; path = Sources/Lupi/LupiError.swift; sourceTree = "<group>"; };
+		D5F2589E1488FCD66B0C83693B4F4E9B /* Lupi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Lupi.framework; path = Lupi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB19E7E2F848B82D1D40840478B07176 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E565CD96C98075ACBBACE7BBC0D0DC84 /* Lupi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lupi-umbrella.h"; sourceTree = "<group>"; };
 		E60E98C105DD8B7909A244D45A331D0E /* Pods-Lupi_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lupi_Example-dummy.m"; sourceTree = "<group>"; };
 		ECB536D6D32A3F770433FF9A3A93D8A7 /* Pods-Lupi_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lupi_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ED5E785F8BCA811A6B38CC58510631ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ED6AE5293769ACFD3D40E8C8884096B4 /* Pods-Lupi_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lupi_Example-Info.plist"; sourceTree = "<group>"; };
-		F64F75F11302133B354931FA7D0B7789 /* Lupi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Lupi-Info.plist"; sourceTree = "<group>"; };
 		F9A9D9DC5CA6CD3BCBB14B59747E283F /* Pods-Lupi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lupi_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,19 +88,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6EB4E3717CD0B8746AB2B6A33FEEE76 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42E5BF6AB7C3A88CBDA41C46EA5327AA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EB611B6A11FFE2A1CD18049639FC0689 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4046D1DFBD38B27D3A17B6682DE9E553 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D264EB1B10FEE9930369ED0BE450C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC57FF7F3F9F31B95168D4D638DCB9FA /* AVFoundation.framework in Frameworks */,
+				97470592C114F8FC750328A3EA57B13E /* Foundation.framework in Frameworks */,
+				CCA5581C02E5C085B68970D77C59A48D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +118,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF8010B600FC99A0DCA5086146A2B24B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		149F39FFC959DBB92AE947801A14897C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,62 +136,52 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8586E93E8EE8C700DF18F369AD31E5B9 /* Lupi */ = {
+		1A0FE87C2C14801A180B19CD14776EAF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				93AB95BAFE3C81B39AFB41FC035455A9 /* Pod */,
-				FED5101159BAAC6F0B2D8FE059DA17F0 /* Support Files */,
-				830EBD7923EFD5F50045FBF9 /* FileType.swift */,
-				830EBD7B23EFD6140045FBF9 /* LupiError.swift */,
-				830EBD7D23EFD6260045FBF9 /* LupiVideoBackgroundView.swift */,
+				66FAA57FD136E762F91BA9DB6C7A2B18 /* Lupi.modulemap */,
+				2C45F3D1675BB99FED2CAC64893AF74E /* Lupi.xcconfig */,
+				CCC64595422E376DD9319D2D9BCB1F30 /* Lupi-dummy.m */,
+				23F4B5AD1F10740383BD3B15F48D0901 /* Lupi-Info.plist */,
+				04D906BB4004D23EFDE701CA2935569C /* Lupi-prefix.pch */,
+				E565CD96C98075ACBBACE7BBC0D0DC84 /* Lupi-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Lupi";
+			sourceTree = "<group>";
+		};
+		ABC845CE575E100C35E371E06C502B60 /* Lupi */ = {
+			isa = PBXGroup;
+			children = (
+				7BFA5BB3FAEFFFEA637D5D0154A2DB97 /* FileType.swift */,
+				CF0E674D4EA9931D36E20DC57BB0FB5A /* LupiError.swift */,
+				39B63FBDBAB024DA93806004893C389A /* LupiVideoBackgroundView.swift */,
+				ACB6911601B587EBB8EF99DEB5109528 /* Pod */,
+				1A0FE87C2C14801A180B19CD14776EAF /* Support Files */,
 			);
 			name = Lupi;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		93AB95BAFE3C81B39AFB41FC035455A9 /* Pod */ = {
+		ACB6911601B587EBB8EF99DEB5109528 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C002DB9E417710E3D54080CCD3398421 /* LICENSE */,
-				7E7E5B7B1377CA63913467030DBF3493 /* Lupi.podspec */,
-				ED5E785F8BCA811A6B38CC58510631ED /* README.md */,
+				C5388C3B24AD03A25CD211FD2E65ADC2 /* LICENSE */,
+				1D8AEE5ACB7C52C1C01E76EBC4010D65 /* Lupi.podspec */,
+				DB19E7E2F848B82D1D40840478B07176 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D4090A1A8593CB49329A467BBBAECC7D /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F25379BA7EBD22D7576F13B387699D8F /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				149F39FFC959DBB92AE947801A14897C /* Products */,
 				02B7AA83449F352DD3D26D4D81161335 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D4090A1A8593CB49329A467BBBAECC7D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8586E93E8EE8C700DF18F369AD31E5B9 /* Lupi */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		DE25AEF3E70D496B4A931D683AE72DCE /* Pods-Lupi_Tests */ = {
@@ -194,6 +198,16 @@
 			);
 			name = "Pods-Lupi_Tests";
 			path = "Target Support Files/Pods-Lupi_Tests";
+			sourceTree = "<group>";
+		};
+		DF8010B600FC99A0DCA5086146A2B24B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */,
+				2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */,
+				80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E5C2E7FA90797FD95DCAFCB0B0B58CB9 /* Pods-Lupi_Example */ = {
@@ -213,31 +227,17 @@
 			path = "Target Support Files/Pods-Lupi_Example";
 			sourceTree = "<group>";
 		};
-		FED5101159BAAC6F0B2D8FE059DA17F0 /* Support Files */ = {
+		F25379BA7EBD22D7576F13B387699D8F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D923E74B3F00B2A4A5276349D8ED694E /* Lupi.modulemap */,
-				D068AC1414F7CD0D15FDB3264423B046 /* Lupi.xcconfig */,
-				D87ACF62B270ED97076C2D78E8A9096D /* Lupi-dummy.m */,
-				F64F75F11302133B354931FA7D0B7789 /* Lupi-Info.plist */,
-				B612A83429FF462F4AD77D10170800AF /* Lupi-prefix.pch */,
-				3BC85704051CD4BD53E44485A1767852 /* Lupi-umbrella.h */,
+				ABC845CE575E100C35E371E06C502B60 /* Lupi */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Lupi";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A30D28203D43D30B92EC89883090BB56 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6613B4C6963359AD0057C9542A20CD69 /* Lupi-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A6F0D6AEB43EB3B297563D34C105C151 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +251,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8806D57C7E13563F4AD063BEE61003DB /* Pods-Lupi_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41FF0D33C71143CE4A0FD7C2AC10B18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F73A7F8B30FC73537A5D3A6FDD0B645 /* Lupi-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +286,12 @@
 		};
 		9582A1526C1780620B90069EBA6C147E /* Lupi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C756194A90D98B040C3755DAC065C65D /* Build configuration list for PBXNativeTarget "Lupi" */;
+			buildConfigurationList = E44731A3310C17C670E873E97A281FE4 /* Build configuration list for PBXNativeTarget "Lupi" */;
 			buildPhases = (
-				A30D28203D43D30B92EC89883090BB56 /* Headers */,
-				2B61231DD254B01F2682A0EF1AAB5496 /* Sources */,
-				D6EB4E3717CD0B8746AB2B6A33FEEE76 /* Frameworks */,
-				2A9F29746C63B2B0D692DD69CE4E83D7 /* Resources */,
+				D41FF0D33C71143CE4A0FD7C2AC10B18 /* Headers */,
+				788C803F9EA5050F5F2483B8AC9D8251 /* Sources */,
+				F2D264EB1B10FEE9930369ED0BE450C3 /* Frameworks */,
+				9725F4D2AAF0A1ABE716597564078273 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -321,11 +329,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					9582A1526C1780620B90069EBA6C147E = {
-						LastSwiftMigration = 1130;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -348,13 +351,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A9F29746C63B2B0D692DD69CE4E83D7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		36F1F420369379B99EB968405F4DCEB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,6 +359,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5BFC38461558AC251F1F78654E24408E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9725F4D2AAF0A1ABE716597564078273 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,14 +383,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B61231DD254B01F2682A0EF1AAB5496 /* Sources */ = {
+		788C803F9EA5050F5F2483B8AC9D8251 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830EBD7E23EFD6260045FBF9 /* LupiVideoBackgroundView.swift in Sources */,
-				830EBD7C23EFD6140045FBF9 /* LupiError.swift in Sources */,
-				D3CB85A0AC7DE816AA213D06A6A3DFAF /* Lupi-dummy.m in Sources */,
-				830EBD7A23EFD5F50045FBF9 /* FileType.swift in Sources */,
+				ABA1A640B1A67C494705393A69075872 /* FileType.swift in Sources */,
+				C903C8F93E60EF1068257CA0AC3B617F /* Lupi-dummy.m in Sources */,
+				471AE56328A58DA8C3336549E207C79D /* LupiError.swift in Sources */,
+				9712215410223759E433DD7361CEF9A9 /* LupiVideoBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,11 +420,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1D6ABF1FCAAA5592289D12458CAC2D70 /* Debug */ = {
+		1B78E2DD94D10137E233678E648A4AC7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B650F02DE1AD0AEE7F07140519D9C16B /* Pods-Lupi_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0757F7D99DA4FF10B6072DD5CF0D7F2E /* Pods-Lupi_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -433,7 +438,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Lupi_Tests/Pods-Lupi_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Lupi_Tests/Pods-Lupi_Tests.modulemap";
@@ -445,78 +450,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		614A1601B769396DE0B446157F4CDB7B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9A9D9DC5CA6CD3BCBB14B59747E283F /* Pods-Lupi_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Lupi_Example/Pods-Lupi_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Lupi_Example/Pods-Lupi_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9C4EF0B6F8503C4DFA5B2FFC7D867155 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D068AC1414F7CD0D15FDB3264423B046 /* Lupi.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Lupi/Lupi-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Lupi/Lupi-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Lupi/Lupi.modulemap";
-				PRODUCT_MODULE_NAME = Lupi;
-				PRODUCT_NAME = Lupi;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -564,22 +504,59 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B894EA4FEA90E4FD1A1AB0466B56094B /* Release */ = {
+		2AEBCE50CC6D62ED0358622D269B88B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D068AC1414F7CD0D15FDB3264423B046 /* Lupi.xcconfig */;
+			baseConfigurationReference = F9A9D9DC5CA6CD3BCBB14B59747E283F /* Pods-Lupi_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lupi_Example/Pods-Lupi_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lupi_Example/Pods-Lupi_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3936AADBA40B27FCCFA7825B78811A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C45F3D1675BB99FED2CAC64893AF74E /* Lupi.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -592,7 +569,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Lupi/Lupi-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Lupi/Lupi-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Lupi/Lupi.modulemap";
 				PRODUCT_MODULE_NAME = Lupi;
@@ -608,7 +585,76 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		A3E2ADC52A8595C0AB3D5DF45A5D1B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8531EDB1177120419A97C668CA3902A5 /* Pods-Lupi_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lupi_Example/Pods-Lupi_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lupi_Example/Pods-Lupi_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD15B3D4FDFFA3C23181E00D7458B5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C45F3D1675BB99FED2CAC64893AF74E /* Lupi.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Lupi/Lupi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Lupi/Lupi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Lupi/Lupi.modulemap";
+				PRODUCT_MODULE_NAME = Lupi;
+				PRODUCT_NAME = Lupi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -659,7 +705,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -672,11 +718,13 @@
 			};
 			name = Debug;
 		};
-		E2F67D8ACFE82967B60C7480E7CAA7FA /* Release */ = {
+		F3C9F54324B282CB31B27E35C229B83A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0757F7D99DA4FF10B6072DD5CF0D7F2E /* Pods-Lupi_Tests.release.xcconfig */;
+			baseConfigurationReference = B650F02DE1AD0AEE7F07140519D9C16B /* Pods-Lupi_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -688,7 +736,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Lupi_Tests/Pods-Lupi_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Lupi_Tests/Pods-Lupi_Tests.modulemap";
@@ -700,45 +748,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		FD82DBB43FC4BD9B1957DD5531AC8A6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8531EDB1177120419A97C668CA3902A5 /* Pods-Lupi_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Lupi_Example/Pods-Lupi_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Lupi_Example/Pods-Lupi_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -746,8 +759,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,8 +768,8 @@
 		63793E367C96191C6FDF9D05934B7DF9 /* Build configuration list for PBXNativeTarget "Pods-Lupi_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				614A1601B769396DE0B446157F4CDB7B /* Debug */,
-				FD82DBB43FC4BD9B1957DD5531AC8A6C /* Release */,
+				2AEBCE50CC6D62ED0358622D269B88B5 /* Debug */,
+				A3E2ADC52A8595C0AB3D5DF45A5D1B48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -764,17 +777,17 @@
 		79E5238B1185F39D4CD85A712340129C /* Build configuration list for PBXNativeTarget "Pods-Lupi_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D6ABF1FCAAA5592289D12458CAC2D70 /* Debug */,
-				E2F67D8ACFE82967B60C7480E7CAA7FA /* Release */,
+				F3C9F54324B282CB31B27E35C229B83A /* Debug */,
+				1B78E2DD94D10137E233678E648A4AC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C756194A90D98B040C3755DAC065C65D /* Build configuration list for PBXNativeTarget "Lupi" */ = {
+		E44731A3310C17C670E873E97A281FE4 /* Build configuration list for PBXNativeTarget "Lupi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C4EF0B6F8503C4DFA5B2FFC7D867155 /* Debug */,
-				B894EA4FEA90E4FD1A1AB0466B56094B /* Release */,
+				DD15B3D4FDFFA3C23181E00D7458B5BA /* Debug */,
+				3936AADBA40B27FCCFA7825B78811A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

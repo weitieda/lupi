@@ -1,5 +1,5 @@
 PODS:
-  - Lupi (0.1.0)
+  - Lupi (1.0.0)
 
 DEPENDENCIES:
   - Lupi (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Lupi: 8b1d07311682b9e4cc6561c57c418a7270d00d6b
+  Lupi: f0bc41b57f106b3ad38e98cea2126c2ea94c61cc
 
 PODFILE CHECKSUM: cf660fa0de35af46ffa748da4f124040237f2117
 
