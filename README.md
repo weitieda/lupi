@@ -6,8 +6,8 @@
 
 One-line configuration video background for iOS project, written in Swift.
 
-![preview](asset/demo.gif)
-![preview](asset/demo_rotation.gif)
+![preview](Asset/demo.gif)
+![preview](Asset/demo_rotation.gif)
 
 ## Features
 
