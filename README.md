@@ -48,10 +48,6 @@ pod 'Lupi', :git => 'https://github.com/weitieda/Lupi.git'
 
 In `Xcode 11`, select `File` -> `Swift Packages` -> `Add Package Dependency`, enter Lupi's repo URL `https://github.com/weitieda/Lupi`. Or you can login `Xcode` with your `GitHub` account and just type `Lupi` to search.
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Author
 
 [Tieda Wei](https://tiedawei.com)
