@@ -1,4 +1,4 @@
-![preview](asset/logo.gif)
+![preview](asset/logo.png)
 
 ![Platform](https://img.shields.io/badge/platforms-iOS-333333.svg)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
