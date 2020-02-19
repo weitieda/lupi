@@ -11,11 +11,11 @@ import AVFoundation
 @available(iOS 10.0, *)
 public class LupiVideoBackgroundView: UIView {
     
-    private var videoPlayer: AVQueuePlayer?
-    private var videoPlayerLayer: AVPlayerLayer?
-    private var playerLooper: AVPlayerLooper?
+    private var videoPlayer: AVQueuePlayer!
+    private var videoPlayerLayer: AVPlayerLayer!
+    private var playerLooper: AVPlayerLooper!
     
-    private var parentView: UIView
+    private weak var parentView: UIView?
     
     public init(fileName: String, fileType: FileType = .mp4, isMuted: Bool = true, in parentView: UIView) throws {
         self.parentView = parentView
@@ -30,7 +30,7 @@ public class LupiVideoBackgroundView: UIView {
     }
     
     override public func layoutSubviews() {
-        videoPlayerLayer?.frame = frame
+        videoPlayerLayer.frame = frame
     }
     
     fileprivate func setupPlayer(path: String, isMuted: Bool) {
@@ -39,20 +39,21 @@ public class LupiVideoBackgroundView: UIView {
         let playerItem = AVPlayerItem(url: url)
         
         videoPlayer = AVQueuePlayer(playerItem: playerItem)
-        playerLooper = AVPlayerLooper(player: videoPlayer!, templateItem: playerItem)
+        playerLooper = AVPlayerLooper(player: videoPlayer, templateItem: playerItem)
         
         videoPlayerLayer = AVPlayerLayer(player: videoPlayer)
-        videoPlayerLayer!.frame = parentView.bounds
-        videoPlayerLayer!.videoGravity = .resizeAspectFill
+        videoPlayerLayer.frame = parentView!.bounds
+        videoPlayerLayer.videoGravity = .resizeAspectFill
         
-        parentView.layer.addSublayer(videoPlayerLayer!)
+        parentView?.layer.addSublayer(videoPlayerLayer)
         
-        videoPlayer!.isMuted = isMuted
+        videoPlayer.isMuted = isMuted
         
-        videoPlayer!.play()
+        videoPlayer.play()
     }
     
     fileprivate func setupUI() {
+        guard let parentView = parentView else {return}
         parentView.addSubview(self)
         translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
