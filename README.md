@@ -41,12 +41,12 @@ class ViewController: UIViewController {
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Lupi', :git => 'https://github.com/weitieda/Lupi.git'
+pod 'Lupi', :git => 'https://github.com/weitieda/lupi.git'
 ```
 
 ### Swift Package Manager (Xcode 11+)
 
-In `Xcode 11`, select `File` -> `Swift Packages` -> `Add Package Dependency`, enter Lupi's repo URL `https://github.com/weitieda/Lupi`. Or you can login `Xcode` with your `GitHub` account and just type `Lupi` to search.
+In `Xcode 11`, select `File` -> `Swift Packages` -> `Add Package Dependency`, enter Lupi's repo URL `https://github.com/weitieda/lupi`. Or you can login `Xcode` with your `GitHub` account and just type `Lupi` to search.
 
 ## Author
 
