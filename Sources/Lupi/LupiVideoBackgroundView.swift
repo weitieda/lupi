@@ -29,13 +29,28 @@ public class LupiVideoBackgroundView: UIView {
         setupPlayer(path: path, isMuted: isMuted)
     }
     
+    public init(url: URL, isMuted: Bool = true, in parentView: UIView) {
+        self.parentView = parentView
+        super.init(frame: .zero)
+        
+        setupUI()
+        setupPlayer(url: url, isMuted: isMuted)
+    }
+    
     override public func layoutSubviews() {
         videoPlayerLayer.frame = frame
     }
     
+    private func setupPlayer(url: URL, isMuted: Bool) {
+        setupPlayerItem(url: url, isMuted: isMuted)
+    }
+    
     fileprivate func setupPlayer(path: String, isMuted: Bool) {
-        
         let url = URL(fileURLWithPath: path)
+        setupPlayer(url: url, isMuted: isMuted)
+    }
+    
+    private func setupPlayerItem(url: URL, isMuted: Bool) {
         let playerItem = AVPlayerItem(url: url)
         
         videoPlayer = AVQueuePlayer(playerItem: playerItem)
